@@ -439,7 +439,8 @@ namespace alpr
       return emptyresults;
     }
   }
-
+  
+  //Used for ALPRD
   AlprResults AlprImpl::recognize( unsigned char* pixelData, int bytesPerPixel, int imgWidth, int imgHeight, std::vector<AlprRegionOfInterest> regionsOfInterest)
   {
 
